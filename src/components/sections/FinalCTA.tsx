@@ -1,7 +1,7 @@
 import { Container } from "../ui";
 import { Reveal } from "../Reveal";
 import { StoreBadges } from "../StoreBadges";
-import { EyeMark } from "../Wordmark";
+import { Logo } from "../Wordmark";
 
 export function FinalCTA() {
   return (
@@ -18,7 +18,7 @@ export function FinalCTA() {
               }}
             />
             <div className="relative">
-              <EyeMark className="mx-auto mb-6 h-12 w-12 text-accent" />
+              <Logo className="mx-auto mb-6 h-20" />
               <h2 className="mx-auto max-w-xl text-balance text-3xl font-extrabold tracking-tight text-text sm:text-4xl">
                 Your first workout is waiting
               </h2>

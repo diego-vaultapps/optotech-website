@@ -5,7 +5,7 @@ import { Container } from "../ui";
 import { StoreBadges } from "../StoreBadges";
 import { PhoneFrame } from "../PhoneFrame";
 import { DashboardScreen } from "../screens/DashboardScreen";
-import { EyeMark } from "../Wordmark";
+import { Logo } from "../Wordmark";
 
 export function Hero() {
   const reduce = useReducedMotion();
@@ -34,7 +34,7 @@ export function Hero() {
             transition={{ duration: 0.5, ease }}
             className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[12px] font-medium text-muted"
           >
-            <EyeMark className="h-3.5 w-3.5" />
+            <Logo className="h-5" />
             The eye gym in your pocket
           </motion.span>
 

@@ -1,21 +1,16 @@
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-export function EyeMark({ className }: { className?: string }) {
+/** The real EyeHIIT app logomark (blue eye flanked by weights). */
+export function Logo({ className }: { className?: string }) {
   return (
-    <span
-      className={cn("inline-block text-accent", className)}
-      aria-hidden
-      style={{
-        WebkitMaskImage: "url(/eyemark.svg)",
-        maskImage: "url(/eyemark.svg)",
-        WebkitMaskRepeat: "no-repeat",
-        maskRepeat: "no-repeat",
-        WebkitMaskSize: "contain",
-        maskSize: "contain",
-        WebkitMaskPosition: "center",
-        maskPosition: "center",
-        backgroundColor: "currentColor",
-      }}
+    <Image
+      src="/eyehitt-logo.png"
+      alt="EyeHIIT"
+      width={336}
+      height={248}
+      priority
+      className={cn("w-auto", className)}
     />
   );
 }
@@ -29,7 +24,7 @@ export function Wordmark({
 }) {
   return (
     <span className={cn("flex items-center gap-2 font-semibold tracking-tight", className)}>
-      <EyeMark className={cn("h-6 w-6", markClassName)} />
+      <Logo className={cn("h-7", markClassName)} />
       <span className="text-text">
         Eye<span className="text-accent">HIIT</span>
       </span>
