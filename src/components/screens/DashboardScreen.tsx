@@ -29,8 +29,8 @@ export function DashboardScreen() {
       <StatusBar />
       <div className="flex-1 overflow-hidden px-4 pb-20">
         <div className="mb-4 mt-1">
-          <p className="text-[11px] text-muted">Good morning</p>
-          <h3 className="text-lg font-bold text-text">Ready to train?</h3>
+          <h3 className="text-lg font-bold text-text">Welcome Back,</h3>
+          <p className="text-[11px] text-muted">{"Let's exercise those eyes!"}</p>
         </div>
 
         {/* streak + weekly ring */}
