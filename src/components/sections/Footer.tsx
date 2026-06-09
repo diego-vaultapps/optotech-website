@@ -36,7 +36,7 @@ export function Footer() {
           <div>
             <Wordmark className="text-lg" />
             <p className="mt-3 max-w-xs text-[14px] leading-relaxed text-muted">
-              The eye gym in your pocket. Train focus, coordination, agility, and
+              The eye gym in your pocket. Exercise focus, coordination, agility, and
               stability — a few minutes a day.
             </p>
           </div>

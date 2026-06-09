@@ -44,7 +44,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.05, ease }}
             className="text-balance text-4xl font-extrabold leading-[1.05] tracking-tight text-text sm:text-5xl md:text-6xl"
           >
-            Train your eyes
+            Exercise your eyes
             <br />
             like an <span className="text-accent">athlete</span>
           </motion.h1>

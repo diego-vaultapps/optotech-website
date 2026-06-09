@@ -8,12 +8,12 @@ const POINTS = [
   {
     icon: Flame,
     title: "Streaks that stick",
-    body: "Train a little every day and watch your streak grow. Small wins, stacked up.",
+    body: "Exercise a little every day and watch your streak grow. Small wins, stacked up.",
   },
   {
     icon: Radar,
     title: "See your balance",
-    body: "A skill view shows how your four categories stack up, so you know what to train next.",
+    body: "A skill view shows how your four categories stack up, so you know what to exercise next.",
   },
   {
     icon: Trophy,
@@ -23,7 +23,7 @@ const POINTS = [
   {
     icon: CalendarCheck,
     title: "Weekly goals",
-    body: "Set how often you want to train and let the app keep you honest, week after week.",
+    body: "Set how often you want to exercise and let the app keep you honest, week after week.",
   },
 ];
 

@@ -9,9 +9,9 @@ export function Features() {
       <Container>
         <Reveal>
           <SectionHeading
-            eyebrow="Four ways to train"
+            eyebrow="Four ways to exercise"
             title="A complete workout for your eyes"
-            subtitle="Every session draws from four training categories — just like a gym splits strength, cardio, mobility, and balance."
+            subtitle="Every session draws from four categories — just like a gym splits strength, cardio, mobility, and balance."
           />
         </Reveal>
 

@@ -11,7 +11,7 @@ const sans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://eyehiit.app"),
   title: {
-    default: "EyeHIIT — Train your eyes like an athlete",
+    default: "EyeHIIT — Exercise your eyes like an athlete",
     template: "%s · EyeHIIT",
   },
   description:
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "OptoTech",
   ],
   openGraph: {
-    title: "EyeHIIT — Train your eyes like an athlete",
+    title: "EyeHIIT — Exercise your eyes like an athlete",
     description:
       "The eye gym in your pocket. Guided workouts, levels, and streaks across Focus, Coordination, Agility, and Stability.",
     type: "website",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "EyeHIIT — Train your eyes like an athlete",
+    title: "EyeHIIT — Exercise your eyes like an athlete",
     description:
       "The eye gym in your pocket. Guided workouts, levels, and streaks.",
     images: ["/app/eyegym.png"],

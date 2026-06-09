@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 const items = [
   { icon: Home, label: "Home" },
-  { icon: Dumbbell, label: "Train" },
+  { icon: Dumbbell, label: "Exercise" },
   { icon: BarChart3, label: "Progress" },
   { icon: User, label: "Profile" },
 ];

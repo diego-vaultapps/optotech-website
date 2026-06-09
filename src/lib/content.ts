@@ -25,7 +25,7 @@ export const FEATURES: Feature[] = [
     name: "Focus",
     tagline: "Lock in, near and far",
     description:
-      "Guided drills train how quickly and cleanly your eyes settle on a target as distance changes. Work each eye, set by set.",
+      "Guided drills exercise how quickly and cleanly your eyes settle on a target as distance changes. Work each eye, set by set.",
     icon: Crosshair,
     accent: "var(--color-accent)",
   },
@@ -68,7 +68,7 @@ export const STEPS: Step[] = [
   {
     num: "01",
     title: "Pick your workout",
-    body: "Open the app to a recommended session, or choose from the four training categories. Each one meets you at your current level.",
+    body: "Open the app to a recommended session, or choose from the four categories. Each one meets you at your current level.",
   },
   {
     num: "02",
@@ -103,7 +103,7 @@ export type Faq = {
 export const FAQS: Faq[] = [
   {
     q: "What is EyeHIIT?",
-    a: "EyeHIIT is an eye gym in your pocket. It guides you through short, structured workouts that train focus, coordination, agility, and stability — the same way a fitness app guides you through a strength or cardio session.",
+    a: "EyeHIIT is an eye gym in your pocket. It guides you through short, structured workouts that exercise focus, coordination, agility, and stability — the same way a fitness app guides you through a strength or cardio session.",
   },
   {
     q: "How long does a session take?",
@@ -123,6 +123,6 @@ export const FAQS: Faq[] = [
   },
   {
     q: "How much does it cost?",
-    a: "EyeHIIT is free to download and start training. Get the app and begin your first session today.",
+    a: "EyeHIIT is free to download and start exercising. Get the app and begin your first session today.",
   },
 ];

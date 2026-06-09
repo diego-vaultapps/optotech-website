@@ -23,7 +23,7 @@ export function FinalCTA() {
                 Your first workout is waiting
               </h2>
               <p className="mx-auto mt-4 max-w-md text-pretty text-base text-muted">
-                Download EyeHIIT and start training today. A few focused minutes is
+                Download EyeHIIT and start exercising today. A few focused minutes is
                 all it takes to begin.
               </p>
               <StoreBadges className="mt-8 justify-center" />

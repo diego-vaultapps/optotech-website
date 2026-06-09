@@ -22,7 +22,7 @@ export function HowItWorks() {
             <SectionHeading
               align="left"
               eyebrow="How it works"
-              title="Open. Train. Level up."
+              title="Open. Exercise. Level up."
               subtitle="No setup, no equipment. Just pick a session and follow along — the app guides every rep."
             />
           </Reveal>
