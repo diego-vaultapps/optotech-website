@@ -68,7 +68,7 @@ export const STEPS: Step[] = [
   {
     num: "01",
     title: "Pick your workout",
-    body: "Open the app to a recommended session, or choose from the four categories. Each one meets you at your current level.",
+    body: "Open the app to a recommended session, or choose from one of the multiple categories. Each one meets you at your current level.",
   },
   {
     num: "02",
@@ -89,7 +89,7 @@ export type Stat = {
 };
 
 export const STATS: Stat[] = [
-  { value: 4, label: "Training categories" },
+  { value: 4, suffix: "+", label: "Training categories" },
   { value: 30, suffix: "+", label: "Progressive levels" },
   { value: 5, suffix: " min", label: "Typical session" },
   { value: 100, suffix: "%", label: "Local & private" },
@@ -103,7 +103,7 @@ export type Faq = {
 export const FAQS: Faq[] = [
   {
     q: "What is EyeHIIT?",
-    a: "EyeHIIT is an eye gym in your pocket. It guides you through short, structured workouts that exercise focus, coordination, agility, and stability — the same way a fitness app guides you through a strength or cardio session.",
+    a: "EyeHIIT is an eye gym you can keep in your pocket. It guides you through short, structured workouts that exercise focus, coordination, agility, and stability — the same way a fitness app guides you through a strength or cardio session.",
   },
   {
     q: "How long does a session take?",
@@ -120,9 +120,5 @@ export const FAQS: Faq[] = [
   {
     q: "Does my data stay private?",
     a: "Your training history lives on your device. EyeHIIT is designed to be local-first, so your progress, streaks, and stats stay with you.",
-  },
-  {
-    q: "How much does it cost?",
-    a: "EyeHIIT is free to download and start exercising. Get the app and begin your first session today.",
   },
 ];

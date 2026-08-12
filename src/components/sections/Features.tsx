@@ -9,9 +9,9 @@ export function Features() {
       <Container>
         <Reveal>
           <SectionHeading
-            eyebrow="Four ways to exercise"
+            eyebrow="More ways to exercise"
             title="A complete workout for your eyes"
-            subtitle="Every session draws from four categories — just like a gym splits strength, cardio, mobility, and balance."
+            subtitle="Challenge your eyes in every workout with exercises designed to challenge a different aspect of visual performance — strength, speed, agility, mobility, and flow. As you progress, new categories and EyeHIIT exercises will be added to keep your training fresh."
           />
         </Reveal>
 

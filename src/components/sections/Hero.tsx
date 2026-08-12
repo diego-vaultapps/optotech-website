@@ -35,7 +35,7 @@ export function Hero() {
             className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[12px] font-medium text-muted"
           >
             <Logo className="h-5" />
-            The eye gym in your pocket
+            The eye gym you can keep in your pocket
           </motion.span>
 
           <motion.h1
@@ -55,9 +55,9 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.12, ease }}
             className="mt-5 max-w-md text-pretty text-base leading-relaxed text-muted sm:text-lg"
           >
-            Short, guided workouts that build focus, coordination, agility, and
-            stability. Level up, keep your streak, and watch your progress climb —
-            all in a few minutes a day.
+            Short, Eye-HIIT guided workouts that build focus, coordination,
+            agility, and stability. Level up, keep your streak, and watch your
+            progress climb — all in a few minutes a day.
           </motion.p>
 
           <motion.div

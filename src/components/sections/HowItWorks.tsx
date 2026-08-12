@@ -23,7 +23,7 @@ export function HowItWorks() {
               align="left"
               eyebrow="How it works"
               title="Open. Exercise. Level up."
-              subtitle="No setup, no equipment. Just pick a session and follow along — the app guides every rep."
+              subtitle="No setup, no equipment. Just pick a session and follow along — your Eye Coach guides every rep."
             />
           </Reveal>
 

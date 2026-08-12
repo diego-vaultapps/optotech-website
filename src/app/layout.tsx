@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s · EyeHIIT",
   },
   description:
-    "EyeHIIT is the eye gym in your pocket. Guided workouts across Focus, Coordination, Agility, and Stability — level up, build streaks, and track your progress. Free on iOS and Android.",
+    "EyeHIIT is the eye gym you can keep in your pocket. Guided workouts across Focus, Coordination, Agility, and Stability — level up, build streaks, and track your progress. Free on iOS and Android.",
   keywords: [
     "EyeHIIT",
     "eye gym",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "EyeHIIT — Exercise your eyes like an athlete",
     description:
-      "The eye gym in your pocket. Guided workouts, levels, and streaks across Focus, Coordination, Agility, and Stability.",
+      "The eye gym you can keep in your pocket. Guided workouts, levels, and streaks across Focus, Coordination, Agility, and Stability.",
     type: "website",
     siteName: "EyeHIIT",
     images: [{ url: "/app/eyegym.png", width: 1200, height: 630, alt: "EyeHIIT" }],
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "EyeHIIT — Exercise your eyes like an athlete",
     description:
-      "The eye gym in your pocket. Guided workouts, levels, and streaks.",
+      "The eye gym you can keep in your pocket. Guided workouts, levels, and streaks.",
     images: ["/app/eyegym.png"],
   },
   icons: {
