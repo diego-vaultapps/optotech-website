@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Container } from "../ui";
 import { Wordmark } from "../Wordmark";
 
@@ -5,10 +6,10 @@ const COLUMNS = [
   {
     title: "Product",
     links: [
-      { label: "Features", href: "#features" },
-      { label: "How it works", href: "#how" },
-      { label: "The app", href: "#showcase" },
-      { label: "FAQ", href: "#faq" },
+      { label: "Features", href: "/#features" },
+      { label: "How it works", href: "/#how" },
+      { label: "The app", href: "/#showcase" },
+      { label: "FAQ", href: "/#faq" },
     ],
   },
   {
@@ -21,12 +22,15 @@ const COLUMNS = [
   {
     title: "Company",
     links: [
-      { label: "Privacy", href: "#" },
-      { label: "Terms", href: "#" },
-      { label: "Contact", href: "#" },
+      { label: "Privacy", href: "/privacy-policy" },
+      { label: "Terms", href: "/terms" },
+      { label: "Contact", href: "mailto:info@optotechventures.com" },
     ],
   },
 ];
+
+const LINK_CLASS =
+  "text-[14px] text-muted transition-colors hover:text-text";
 
 export function Footer() {
   return (
@@ -48,12 +52,15 @@ export function Footer() {
               <ul className="mt-3 space-y-2">
                 {col.links.map((l) => (
                   <li key={l.label}>
-                    <a
-                      href={l.href}
-                      className="text-[14px] text-muted transition-colors hover:text-text"
-                    >
-                      {l.label}
-                    </a>
+                    {l.href.startsWith("/") ? (
+                      <Link href={l.href} className={LINK_CLASS}>
+                        {l.label}
+                      </Link>
+                    ) : (
+                      <a href={l.href} className={LINK_CLASS}>
+                        {l.label}
+                      </a>
+                    )}
                   </li>
                 ))}
               </ul>

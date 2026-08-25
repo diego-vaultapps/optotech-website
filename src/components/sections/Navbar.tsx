@@ -1,15 +1,16 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { Wordmark } from "../Wordmark";
 import { Button } from "../ui";
 import { cn } from "@/lib/utils";
 
 const LINKS = [
-  { href: "#features", label: "Features" },
-  { href: "#how", label: "How it works" },
-  { href: "#showcase", label: "The app" },
-  { href: "#faq", label: "FAQ" },
+  { href: "/#features", label: "Features" },
+  { href: "/#how", label: "How it works" },
+  { href: "/#showcase", label: "The app" },
+  { href: "/#faq", label: "FAQ" },
 ];
 
 export function Navbar() {
@@ -33,21 +34,21 @@ export function Navbar() {
         )}
         style={{ transitionTimingFunction: "cubic-bezier(0.23,1,0.32,1)" }}
       >
-        <a href="#top" className="pl-2">
+        <Link href="/#top" className="pl-2">
           <Wordmark className="text-base" />
-        </a>
+        </Link>
         <div className="hidden items-center gap-1 md:flex">
           {LINKS.map((l) => (
-            <a
+            <Link
               key={l.href}
               href={l.href}
               className="rounded-full px-3 py-1.5 text-sm text-muted transition-colors hover:bg-white/5 hover:text-text"
             >
               {l.label}
-            </a>
+            </Link>
           ))}
         </div>
-        <Button href="#download" className="px-4 py-2 text-[13px]">
+        <Button href="/#download" className="px-4 py-2 text-[13px]">
           Get the app
         </Button>
       </nav>
