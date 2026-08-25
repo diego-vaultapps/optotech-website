@@ -9,7 +9,7 @@ const sans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://eyehiit.app"),
+  metadataBase: new URL("https://eyehiit.optotechventures.com"),
   title: {
     default: "EyeHIIT — Exercise your eyes like an athlete",
     template: "%s · EyeHIIT",
