@@ -54,7 +54,5 @@ npm run lint     # eslint
 
 ## To go live
 
-- Replace the placeholder `#` store links in `src/components/StoreBadges.tsx`
-  (`APP_STORE_URL`, `PLAY_STORE_URL`) and `src/components/sections/Footer.tsx`.
 - Swap the Open Graph image / favicon in `public/app/` if desired.
 - Point the `metadataBase` URL in `src/app/layout.tsx` at the production domain.

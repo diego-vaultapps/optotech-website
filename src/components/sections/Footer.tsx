@@ -15,8 +15,8 @@ const COLUMNS = [
   {
     title: "Get the app",
     links: [
-      { label: "App Store", href: "#" },
-      { label: "Google Play", href: "#" },
+      { label: "App Store", href: "https://apps.apple.com/gt/app/eyehiit/id6683283078?l=en-GB" },
+      { label: "Google Play", href: "https://play.google.com/store/apps/details?id=com.optotech.eyegym" },
     ],
   },
   {
