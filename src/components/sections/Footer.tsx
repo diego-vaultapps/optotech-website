@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Container } from "../ui";
 import { Wordmark } from "../Wordmark";
+import { APP_STORE_URL, PLAY_STORE_URL } from "@/lib/storeLinks";
 
 const COLUMNS = [
   {
@@ -15,8 +16,8 @@ const COLUMNS = [
   {
     title: "Get the app",
     links: [
-      { label: "App Store", href: "https://apps.apple.com/gt/app/eyehiit/id6683283078?l=en-GB" },
-      { label: "Google Play", href: "https://play.google.com/store/apps/details?id=com.optotech.eyegym" },
+      { label: "App Store", href: APP_STORE_URL },
+      { label: "Google Play", href: PLAY_STORE_URL },
     ],
   },
   {

@@ -1,7 +1,5 @@
 import { cn } from "@/lib/utils";
-
-const APP_STORE_URL = "https://apps.apple.com/gt/app/eyehiit/id6683283078?l=en-GB";
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.optotech.eyegym";
+import { APP_STORE_URL, PLAY_STORE_URL } from "@/lib/storeLinks";
 
 function AppleIcon({ className }: { className?: string }) {
   return (
