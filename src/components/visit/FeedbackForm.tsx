@@ -191,9 +191,9 @@ export function FeedbackForm() {
       return;
     }
 
-    // No endpoint wired yet: hand the answers to the mail client rather than
+    // No access key configured: hand the answers to the mail client rather than
     // dropping them on the floor.
-    if (!FEEDBACK_ENDPOINT) {
+    if (!WEB3FORMS_ACCESS_KEY) {
       window.location.assign(buildMailto(answers, source));
       setStatus("sent");
       return;
@@ -213,7 +213,7 @@ export function FeedbackForm() {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
-          ...(WEB3FORMS_ACCESS_KEY && { access_key: WEB3FORMS_ACCESS_KEY }),
+          access_key: WEB3FORMS_ACCESS_KEY,
           subject: `EyeHIIT feedback — ${source ?? "direct"}`,
           from_name: "EyeHIIT feedback form",
           ...(replyTo && { replyto: replyTo }),

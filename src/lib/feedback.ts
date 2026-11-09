@@ -112,15 +112,19 @@ export const FEEDBACK_QUESTIONS: FeedbackQuestion[] = [
 ];
 
 /**
- * Where the form posts. Unset → the form falls back to an email draft.
- *
- * Both of these must be NEXT_PUBLIC_*: the form is a client component on a
- * statically prerendered page, so they are inlined at build time. Setting them
- * in Amplify after a deploy does nothing until the site is rebuilt.
+ * Where the form posts. A public, unchanging API URL — it is the same in every
+ * environment, so making it configuration only gave it a way to go missing.
  */
-export const FEEDBACK_ENDPOINT = process.env.NEXT_PUBLIC_FEEDBACK_ENDPOINT ?? "";
+export const FEEDBACK_ENDPOINT = "https://api.web3forms.com/submit";
 
-/** Web3Forms requires its access key in the request body. */
+/**
+ * The one genuinely per-account value, and the switch that arms the form: unset
+ * → submissions fall back to a prefilled email draft rather than being lost.
+ *
+ * Must be NEXT_PUBLIC_*. The form is a client component on a statically
+ * prerendered page, so this is inlined at build time — setting it in Amplify
+ * does nothing until the site is rebuilt.
+ */
 export const WEB3FORMS_ACCESS_KEY =
   process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY ?? "";
 
