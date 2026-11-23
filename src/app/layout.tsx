@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s · EyeHIIT",
   },
   description:
-    "EyeHIIT is the eye gym you can keep in your pocket. Guided workouts across Focus, Coordination, Agility, and Stability — level up, build streaks, and track your progress. Free on iOS and Android.",
+    "EyeHIIT is the eye gym you can keep in your pocket. Guided workouts across Focus, Coordination, Agility, and Stability — level up, build streaks, and track your progress. On iOS and Android.",
   keywords: [
     "EyeHIIT",
     "eye gym",

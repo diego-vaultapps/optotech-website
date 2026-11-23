@@ -69,7 +69,7 @@ export function Hero() {
           >
             <StoreBadges className="justify-center lg:justify-start" />
             <p className="mt-3 text-[12px] text-faint">
-              Free to download · iPhone &amp; Android
+              iPhone &amp; Android
             </p>
           </motion.div>
         </div>
